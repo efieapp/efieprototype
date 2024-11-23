@@ -6,3 +6,5 @@ const loadPage = function(){
     loadr.innerText = "Efie N'Fie Property Management Company.";
     
 }
+
+export { loadPage };
