@@ -1,2 +1,2 @@
-# Afieapp
+# Efie app
 Private dev
