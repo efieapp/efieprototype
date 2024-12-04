@@ -1,9 +1,24 @@
-import { loadPage } from 'https://efieapp.github.io/efieprototype/index.js';
+import { loadPage, checkOut, joinHost } from 'https://efieapp.github.io/efieprototype/index.js';
+
+const jointoday = document.querySelector('#listhome');
+const checkout = document.querySelector('#buyhome');
 
 window.addEventListener("load", (e) => {
     e.preventDefault();
     
     loadPage()
+});
+
+jointoday.addEventListener("click", (e) => {
+    e.preventDefault();
+    
+    joinHost();
+});
+
+checkout.addEventListener("click", (e) => {
+    e.preventDefault();
+    
+    checkOut();
 });
 
 //search controller 
@@ -12,7 +27,7 @@ window.addEventListener("load", (e) => {
 let thesearxh = searxh.trim();
 let searchresults;
 let notfound;
-  let inventory = ["Solutions","Education","Health","solutions","education","health", "Ga-South Clientele"];
+  let inventory = ["Lease", "Sell", "Buy A home","Rent", "Ga-South Clientele"];
   for(count=0;count<inventory.length;count++){
       if(thesearxh.includes(inventory[count])){
           notfound = 1;
