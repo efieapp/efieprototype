@@ -7,26 +7,21 @@ const loadPage = function(){
 
 const checkOut = function(){
     const checkouturl = "https://efieapp.github.io/efieprototype/checkout/index.html";
+    document.write("<h3><span class='spinner spinner-grow'></span>Loading... please wait</h3>");
     
-    window.open(checkouturl, "_blank", "location=false, status=true");
-    status = "Buy Home | Efie N'fie";
-    if(location.href="https://efieapp.github.io/efieprototype/home.html"){
-        window.close();
-    }
+    window.location.assign(checkouturl);
 }
 
 const joinHost = function(){
     const clienteleurl = "https://efieapp.github.io/efieprototype/checkout/index.html";
     
-    window.open(clienteleurl, "_blank", "location=false, status=true");
-    status = "Join hosts | Efie N'fie";
-    if(location.href="https://efieapp.github.io/efieprototype/home.html"){
-        window.close();
-  }
+    window.location.assign(clienteleurl);
+   
 }
 
 const signin = function (){
     const signinurl = "https://efieapp.github.io/efieprototype/signin/index.html";
+    window.location.assign(signinurl);
 }
 
 export { loadPage, checkOut, joinHost };
