@@ -1,7 +1,7 @@
 import { loadPage, checkOut, joinHost } from 'https://efieapp.github.io/efieprototype/index.js';
 
-const jointoday = document.querySelector('#listhome');
-const checkout = document.querySelector('#buyhome');
+const jointoday = document.querySelector('.listhome');
+const checkout = document.querySelector('.buyhome');
 
 window.addEventListener("load", (e) => {
     e.preventDefault();
