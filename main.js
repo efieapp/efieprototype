@@ -1,4 +1,4 @@
-import { checkOut, joinHost, viewProfile } from 'https://efieapp.github.io/efieprototype/index.js';
+import { checkOut, joinHost, viewProfile, signin } from 'https://efieapp.github.io/efieprototype/index.js';
 
 const jointoday = document.querySelectorAll('.listhome');
 for(let i=0; i<jointoday.length; i++){
@@ -28,6 +28,14 @@ for(let y=0; y<viewproperty.length; y++){
         viewProfile();
     });
 }
+
+const auth = document.querySelector('#signin');
+
+auth.addEventListener("click", (e) => {
+    e.preventDefault();
+    
+    signin();
+});
 
 //search controller 
  const searchHelper = function (){

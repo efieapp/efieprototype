@@ -14,6 +14,7 @@ const checkOut = function(){
 
 const joinHost = function(){
     const clienteleurl = "https://efieapp.github.io/efieprototype/index-list.html";
+    document.write("<h3><span class='spinner spinner-grow'></span>Loading... please wait</h3>");
     
     window.location.assign(clienteleurl);
    
@@ -21,12 +22,16 @@ const joinHost = function(){
 
 const signin = function (){
     const signinurl = "https://efieapp.github.io/efieprototype/signin.html";
+    document.write("<h3><span class='spinner spinner-grow'></span>Loading... please wait</h3>");
+    
     window.location.assign(signinurl);
 }
 
 const viewProfile = function (){
     const viewprofile = "https://efieapp.github.io/efieprototype/profile.html";
+    document.write("<h3><span class='spinner spinner-grow'></span>Loading... please wait</h3>");
+    
     window.location.assign(viewprofile)
 }
 
-export { loadPage, checkOut, joinHost, viewProfile };
+export { loadPage, checkOut, joinHost, viewProfile, signin };
