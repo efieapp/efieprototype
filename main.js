@@ -10,13 +10,14 @@ for(let i=0; i<jointoday.length; i++){
 
 }
 const checkout = document.querySelectorAll('.buyhome');
-
-checkout.addEventListener("click", (e) => {
+for(let x=0; x<checkout.length; x++){
+checkout[x].addEventListener("click", (e) => {
     e.preventDefault();
     
     checkOut();
 });
 
+}
 //search controller 
  const searchHelper = function (){
  let searxh = document.getElementById("searchterms").value;
