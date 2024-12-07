@@ -24,4 +24,9 @@ const signin = function (){
     window.location.assign(signinurl);
 }
 
-export { loadPage, checkOut, joinHost };
+const viewProfile = function (){
+    const viewprofile = "https://efieapp.github.io/efieprototype/profile.html";
+    window.location.assign(viewprofile)
+}
+
+export { loadPage, checkOut, joinHost, viewProfile };

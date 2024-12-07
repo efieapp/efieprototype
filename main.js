@@ -1,4 +1,4 @@
-import { checkOut, joinHost } from 'https://efieapp.github.io/efieprototype/index.js';
+import { checkOut, joinHost, viewProfile } from 'https://efieapp.github.io/efieprototype/index.js';
 
 const jointoday = document.querySelectorAll('.listhome');
 for(let i=0; i<jointoday.length; i++){
@@ -9,15 +9,26 @@ for(let i=0; i<jointoday.length; i++){
 });
 
 }
+
 const checkout = document.querySelectorAll('.buyhome');
 for(let x=0; x<checkout.length; x++){
 checkout[x].addEventListener("click", (e) => {
     e.preventDefault();
-    
+   
     checkOut();
 });
 
 }
+
+const viewproperty = document.querySelectorAll('.viewprofile');
+for(let y=0; y<viewproperty.length; y++){
+    viewproperty[y].addEventListener("click", (e) => {
+        e.preventDefault();
+        
+        viewProfile();
+    });
+}
+
 //search controller 
  const searchHelper = function (){
  let searxh = document.getElementById("searchterms").value;
