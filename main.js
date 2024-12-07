@@ -1,13 +1,15 @@
 import { checkOut, joinHost } from 'https://efieapp.github.io/efieprototype/index.js';
 
-const jointoday = document.querySelector('.listhome');
-const checkout = document.querySelector('.buyhome');
-
-jointoday.addEventListener("click", (e) => {
+const jointoday = document.querySelectorAll('.listhome');
+for(let i=0; i<jointoday.length; i++){
+    jointoday[i].addEventListener("click", (e) => {
     e.preventDefault();
     
     joinHost();
 });
+
+}
+const checkout = document.querySelectorAll('.buyhome');
 
 checkout.addEventListener("click", (e) => {
     e.preventDefault();
