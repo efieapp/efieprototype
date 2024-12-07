@@ -6,21 +6,21 @@ const loadPage = function(){
 }
 
 const checkOut = function(){
-    const checkouturl = "https://efieapp.github.io/efieprototype/checkout/index.html";
+    const checkouturl = "https://efieapp.github.io/efieprototype/index-check.html";
     document.write("<h3><span class='spinner spinner-grow'></span>Loading... please wait</h3>");
     
     window.location.assign(checkouturl);
 }
 
 const joinHost = function(){
-    const clienteleurl = "https://efieapp.github.io/efieprototype/checkout/index.html";
+    const clienteleurl = "https://efieapp.github.io/efieprototype/index-list.html";
     
     window.location.assign(clienteleurl);
    
 }
 
 const signin = function (){
-    const signinurl = "https://efieapp.github.io/efieprototype/signin/index.html";
+    const signinurl = "https://efieapp.github.io/efieprototype/signin.html";
     window.location.assign(signinurl);
 }
 
