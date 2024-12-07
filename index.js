@@ -6,7 +6,7 @@ const loadPage = function(){
 }
 
 const checkOut = function(){
-    const checkouturl = "https://efieapp.github.io/efieprototype/index-check.html";
+    const checkouturl = "https://efieapp.github.io/efieprototype/index-gallery.html";
     document.write("<h3><span class='spinner spinner-grow'></span>Loading... please wait</h3>");
     
     window.location.assign(checkouturl);
