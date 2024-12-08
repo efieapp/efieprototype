@@ -113,7 +113,7 @@
              <img src="https://efieapp.github.io/efieprototype/image2.png" class="img-fluid">
   </div>-->
   <div class="table-responsive">
-            <table class="table-borderless">
+            <table class="table-borderless" cellpadding="7">
                 <tr>
                     <td>
                         <div class="card" style="width:400px">
@@ -121,7 +121,7 @@
                             <div class="card-body">
                                 <span class="text-muted">House</span>
                               <h5 class="card-title">House Listing</h5>
-                              <p class="card-text">2 Beds | 1 Bathroom <span class="badge bg-success">On-Sale</span></p>
+                              <p class="card-text">2 Beds | 1 Bathroom <span class="badge" style="background-color: violet; color: white">On-Sale</span></p>
                               <a class="viewprofile btn btn-outline-success" href="javascript:void(0)" type="button">View Profile</a>
                             </div>
                         </div>
@@ -139,6 +139,7 @@
                             </div>
                         </div>
                     </td>
+                    <td><button class="btn btn-outline-warning"><i class="bi bi-collection"></i> All Properties</button> </td>
                 </tr>
             </table>
    </div>
@@ -164,7 +165,7 @@
                     <button class="listhome btn btn-outline-light mt-5">LIST YOUR HOME</button>
                     <button class="buyhome btn btn-light mt-3">BUY A HOME</button>
           
-                                         <i style="font-size: 19px" class="bi bi-facebook" data-bs-toggle="offcanvas" data-bs-target="#mySocial"></i> <i class="bi bi-twitter" style="font-size: 19px; margin-left: 5px" data-bs-toggle="offcanvas" data-bs-target="#mySocial"></i> <i data-bs-toggle="offcanvas" data-bs-target="#mySocial" class="bi bi-instagram" style="font-size: 19px; margin-left: 5px"></i>
+                                         <i style="font-size: 19px" class="bi bi-facebook" data-bs-toggle="offcanvas" data-bs-target="#mySocial"></i> <i class="bi bi-twitter" style="font-size: 19px; margin-left: 5px" data-bs-toggle="offcanvas" data-bs-target="#mySocial"></i> <i data-bs-toggle="offcanvas" data-bs-target="#mySocial" class="bi bi-instagram" style="font-size: 19px; margin-left: 5px"></i><i style="font-size: 19px" class="bi bi-sliders float-end mx-3" data-bs-target="#mySettings" data-bs-toggle="offcanvas"></i>
             </pre>
         </div>
                  <div class="offcanvas offcanvas-bottom" id="mySocial">
@@ -178,5 +179,22 @@
                             <p>Connect on Socials</p>
                         </div>
                     </div>
+                    <!-- settings -->
+                    <div class="offcanvas offcanvas-bottom" id="mySettings">
+        <div class="offcanvas-header">
+                            <h1 class="offcanvas-title">
+                                Settings 
+                            </h1><hr>
+                            <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <form>
+                                <label for="settings">Toggle Display Settings</label>
+                                <div class="form-check form-switch">
+                                    <input type="checkbox" class="form-check-input">
+                                </div>
+                            </form>
+                        </div>
+              </div>
 </body>
 </html>
