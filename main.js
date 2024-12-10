@@ -14,9 +14,6 @@ const text = document.querySelector(".sec-text");
             setTimeout(() => {
                 text.textContent = "For Lease";
             }, 8000); 
-            setTimeout(() => {
-                text.textContent = "List Your Home";
-            }, 1200); 
         }
         textLoad();
         setInterval(textLoad, 12000);
@@ -61,7 +58,6 @@ for(let y=0; y<viewproperty.length; y++){
 }
 
 const signin = document.querySelector('#signin');
-const signup = document.querySelector("#signup");
 
 signin.addEventListener("click", (e) => {
     e.preventDefault();
@@ -69,11 +65,14 @@ signin.addEventListener("click", (e) => {
     Signin();
 });
 
-signup.addEventListener("click", (e) => {
-    e.preventDefault();
-    
-    Signup();
-});
+const signup = document.querySelectorAll('.signup');
+for(let y=0; y<signup.length; y++){
+    signup[y].addEventListener("click", (e) => {
+        e.preventDefault();
+        
+        Signup();
+    });
+}
 
 //search controller 
  const searchHelper = function (){
