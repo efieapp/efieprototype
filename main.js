@@ -67,14 +67,13 @@ signin.addEventListener("click", (e) => {
     Signin();
 });
 
-const signup = document.querySelectorAll('.signup');
-for(let y=0; y<signup.length; y++){
-    signup[y].addEventListener("click", (e) => {
+const signup = document.querySelector('#signup');
+
+ signup.addEventListener("click", (e) => {
         e.preventDefault();
         
         Signup();
-    });
-}
+   });
 
 //search controller 
  const searchHelper = function (){
