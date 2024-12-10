@@ -1,4 +1,4 @@
-import { checkOut, joinHost, viewProfile, signin, signup, loadPage } from 'https://efieapp.github.io/efieprototype/index.js';
+import { checkOut, joinHost, viewProfile, Signin, Signup, loadPage } from 'https://efieapp.github.io/efieprototype/index.js';
 
 const todayuser = document.querySelector(".browserdetails");
 todayuser.innerText = navigator.appName + " " + navigator.appVersion;
@@ -66,13 +66,13 @@ const signup = document.querySelector("#signup");
 signin.addEventListener("click", (e) => {
     e.preventDefault();
     
-    signin();
+    Signin();
 });
 
 signup.addEventListener("click", (e) => {
     e.preventDefault();
     
-    signup();
+    Signup();
 });
 
 //search controller 
