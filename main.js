@@ -1,7 +1,9 @@
 import { checkOut, joinHost, viewProfile, Signin, Signup, loadPage } from 'https://efieapp.github.io/efieprototype/index.js';
 
 const todayuser = document.querySelector(".browserdetails");
+if(todayuser !== null){
 todayuser.innerText = navigator.appName + " " + navigator.appVersion;
+}
 
 const text = document.querySelector(".sec-text");
         const textLoad = () => {
