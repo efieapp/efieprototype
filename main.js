@@ -1,25 +1,5 @@
 import { checkOut, joinHost, viewProfile, Signin, Signup, loadPage } from 'https://efieapp.github.io/efieprototype/index.js';
 
-/*onst todayuser = document.querySelector(".browserdetails");
-if(todayuser !== null){
-todayuser.innerText = navigator.appName + " " + navigator.appVersion;
-}*/
-
-const text = document.querySelector(".sec-text");
-        const textLoad = () => {
-            setTimeout(() => {
-                text.textContent = "For Sale";
-            }, 0);
-            setTimeout(() => {
-                text.textContent = "For Rent";
-            }, 4000);
-            setTimeout(() => {
-                text.textContent = "For Lease";
-            }, 8000); 
-        }
-        textLoad();
-        setInterval(textLoad, 12000);
-
 const jointoday = document.querySelectorAll('.listhome');
 for(let i=0; i<jointoday.length; i++){
     jointoday[i].addEventListener("click", (e) => {
