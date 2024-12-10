@@ -6,7 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script type="module" src="https://efieapp.github.io/efieprototype/main.js"></script>
-    <title>Page title</title>
+    <title>Custom Home</title>
 </head>
 <body>
         <nav class="navbar navbar-expand-sm bg-light navbar-light">
@@ -17,7 +17,7 @@
             <div id="mainmenu" class="collapse navbar-collapse">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="home nav-link" href="home.html">Home</a>
+                        <a class="nav-link home" href="home.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link">About</a>
@@ -51,15 +51,15 @@
     </nav>
          <div class="container">
         <div class="shadow-lg m-4 p-4 rounded">
-            <h1 class="dispay-2">Buy Property</h1>
+            <h1 class="dispay-2">Custom Property</h1>
             <span class="text-muted">Fill out the details </span><hr>
             
         <form name="regform" class="was-validated">
                 <div class="mt-2 mb-3">
                     <label for="fullname" class="form-label">
-                        Fullname:
+                        Add-ons
                     </label>
-                    <input type="text" placeholder="Enter Fullname" class="form-control form-control-lg" name="fullname" required>
+                    <input type="number" placeholder="How many add-ons e.g pool, balcony etc." class="form-control form-control-lg" name="fullname" required>
                     <div class="valid-feedback">Valid</div>
                     <div class="invalid-feedback">Please fill out this field.</div>
                 </div>
@@ -81,12 +81,17 @@
                         <div class="valid-feedback">Valid</div>
                         <div class="invalid-feedback">Please fill out this field.</div>
                     </div>
-                    <div class="form-check">
-                        <label for="showpassword" 
-                        class="form-label">Show Password</label>
-                        <input type="checkbox" class="form-check-input">
+                    <div class="mb-3">
+                        <label for="add-on">Add-ons</label>
+                        <select onchange"doSomething()" class="form-select form-select-lg">
+                            <option>Swimming pool</option>
+                            <option>Condo</option>
+                            <option>Garage</option>
+                            <option>Wi-Fi/Internet Facilities</option>
+                            <option selected="selected">Select additional add-ons(needs backend integrations)</option>
+                        </select>
                     </div>
-                    <button class="btn btn-primary mb-3 mt-3 btn-lg" type="button" data-bs-toggle="modal" data-bs-target="#confirem">Register</button>
+                    <button class="btn btn-primary mb-3 mt-3 btn-lg" type="button" data-bs-toggle="modal" data-bs-target="#confirem">Send Custom</button>
                     <div class="modal" id="confirem">
                         <div class="modal-dialog">
                             <div class="modal-content">

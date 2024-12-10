@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <title>Page title</title>
+    <script type="module" src="https://efieapp.github.io/efieprototype/main.js"></script>
+    <title>List Home</title>
 </head>
 <body>
         <nav class="navbar navbar-expand-sm bg-light navbar-light">
@@ -16,7 +17,7 @@
             <div id="mainmenu" class="collapse navbar-collapse">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="home.html">Home</a>
+                        <a class="nav-link home" href="home.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link">About</a>
@@ -79,13 +80,11 @@
                         <input type="text" class="form-control form-control-lg" placeholder="Location" required>
                         <div class="valid-feedback">Valid</div>
                         <div class="invalid-feedback">Please fill out this field.</div>
-                    </div>
-                    <div class="form-check">
-                        <label for="showpassword" 
-                        class="form-label">Show Password</label>
-                        <input type="checkbox" class="form-check-input">
-                    </div>
-                    <button class="btn btn-primary mb-3 mt-3 btn-lg" type="button" data-bs-toggle="modal" data-bs-target="#confirem">Register</button>
+                    </div><hr>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" style="width: 10%"></div>
+                        </div>
+                    <button class="btn btn-outline-success mb-3 mt-3 btn-lg disabled" type="button" data-bs-toggle="modal" data-bs-target="#confirem">Register Home</button>
                     <div class="modal" id="confirem">
                         <div class="modal-dialog">
                             <div class="modal-content">

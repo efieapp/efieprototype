@@ -27,6 +27,13 @@ const signin = function (){
     window.location.assign(signinurl);
 }
 
+const signup = function (){
+    const signupurl = "https://efieapp.github.io/efieprototype/signup.html";
+    document.write("<h3><span class='spinner spinner-grow'></span>Loading... please wait</h3>");
+    
+    window.location.assign(signupurl);
+}
+
 const viewProfile = function (){
     const viewprofile = "https://efieapp.github.io/efieprototype/profile.html";
     document.write("<h3><span class='spinner spinner-grow'></span>Loading... please wait</h3>");

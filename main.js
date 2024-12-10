@@ -1,4 +1,4 @@
-import { checkOut, joinHost, viewProfile, signin } from 'https://efieapp.github.io/efieprototype/index.js';
+import { checkOut, joinHost, viewProfile, signin, signup, loadPage } from 'https://efieapp.github.io/efieprototype/index.js';
 
 const todayuser = document.querySelector(".browserdetails");
 todayuser.innerText = navigator.appName + " " + navigator.appVersion;
@@ -13,7 +13,10 @@ const text = document.querySelector(".sec-text");
             }, 4000);
             setTimeout(() => {
                 text.textContent = "For Lease";
-            }, 8000); //1s = 1000 milliseconds
+            }, 8000); 
+            setTimeout(() => {
+                text.textContent = "List Your Home";
+            }, 1200); 
         }
         textLoad();
         setInterval(textLoad, 12000);
@@ -24,6 +27,16 @@ for(let i=0; i<jointoday.length; i++){
     e.preventDefault();
     
     joinHost();
+});
+
+}
+
+const gohome = document.querySelectorAll('.home');
+for(let i=0; i<gohome.length; i++){
+    gohome[i].addEventListener("click", (e) => {
+    e.preventDefault();
+    
+    loadPage()
 });
 
 }
@@ -47,12 +60,19 @@ for(let y=0; y<viewproperty.length; y++){
     });
 }
 
-const auth = document.querySelector('#signin');
+const signin = document.querySelector('#signin');
+const signup = document.querySelector("#signup");
 
-auth.addEventListener("click", (e) => {
+signin.addEventListener("click", (e) => {
     e.preventDefault();
     
     signin();
+});
+
+signup.addEventListener("click", (e) => {
+    e.preventDefault();
+    
+    signup();
 });
 
 //search controller 
