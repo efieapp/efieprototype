@@ -1,4 +1,4 @@
-import { checkOut, joinHost, viewProfile, Signin, Signup, loadPage } from 'https://efieapp.github.io/efieprototype/index.js';
+import { joinHost, Signup, loadPage } from 'https://efieapp.github.io/efieprototype/index.js';
 
 const jointoday = document.querySelectorAll('.listhome');
 for(let i=0; i<jointoday.length; i++){
@@ -20,6 +20,7 @@ for(let i=0; i<gohome.length; i++){
 
 }
 
+/*
 const checkout = document.querySelectorAll('.buyhome');
 for(let x=0; x<checkout.length; x++){
 checkout[x].addEventListener("click", (e) => {
@@ -46,7 +47,7 @@ signin.addEventListener("click", (e) => {
     
     Signin();
 });
-
+*/
 const signup = document.querySelectorAll('.signup');
 for(let y=0; y<signup.length; y++){
     signup[y].addEventListener("click", (e) => {
@@ -56,7 +57,7 @@ for(let y=0; y<signup.length; y++){
     });
 }
 
-//search controller 
+/* 
  const searchHelper = function (){
  let searxh = document.getElementById("searchterms").value;
 let thesearxh = searxh.trim();
@@ -106,3 +107,4 @@ let _searchterms = localStorage.searchresults;
            break;
     }
 }
+*/
