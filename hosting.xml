@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding ="UTF-8"?>
+<?xml:stylesheet type="text/css" href="https://efieapp.github.io/efieprototype/instructions.css"?>
+<PRODUCTDATA>
+    <PRODUCT PRODID="EFJ" CATEGORY="Hosting">
+        <PRODUCTNAME>Efie N'fie Hosting</PRODUCTNAME>
+        <DESCRIPTION>Hosting a website allows a business to scale their platform product to their users on a particular Operating System or various operating systems.</DESCRIPTION>
+        <CURRENCY>USD</CURRENCY>
+    </PRODUCT>
+</PRODUCTDATA>
+ 

@@ -1,0 +1,19 @@
+PRODUCTDATA{
+    background-color: #ffffff;
+}
+
+PRODUCT {
+    display: block;
+}
+
+PRODUCTNAME{
+    display: block;
+}
+
+DESCRIPTION {
+    display: block;
+}
+
+CURRENCY{
+    display: block;
+}
