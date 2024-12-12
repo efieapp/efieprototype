@@ -6,14 +6,8 @@ PRODUCT {
     display: block;
 }
 
-PRODUCTNAME{
+PRODUCTNAME, DESCRIPTION, CURRENCY, PRICE, SERVERS, HOSTS{
     display: block;
-}
-
-DESCRIPTION {
-    display: block;
-}
-
-CURRENCY{
-    display: block;
+    margin: 20pt;
+    font-size: 20pt;
 }
