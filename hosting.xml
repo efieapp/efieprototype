@@ -3,13 +3,13 @@
 <PRODUCTDATA>
     <PRODUCT PRODID="EFJ" CATEGORY="Hosting">
         <PRODUCTNAME>Efie N'fie Hosting</PRODUCTNAME>
-        <DESCRIPTION>Hosting a website allows a business to scale their platform product to their users on a particular Operating System or various operating systems.</DESCRIPTION>
+        <DESCRIPTION>Hosting a website allows a business to scale their software to users on a particular Operating System or various operating systems. The user needs to choose a domain name with validity duration of at least 1 month and a server to grant requests of a client.</DESCRIPTION>
         <CURRENCY>USD</CURRENCY>
-        <DOMAINPRICE>USD 22 (First year)</DOMAINPRICE>
+        <DOMAINPRICE>USD 22 (Domain name first year)</DOMAINPRICE>
         <DOMAINREGS>eg. Namecheap</DOMAINREGS>
         <HOSTS>AWS, Google Cloud etc. </HOSTS>
         <SERVERS>eg. Hostgator</SERVERS>
-        <SERVERPRICE>USD 168 (48 months)</SERVERPRICE>
+        <SERVERPRICE>USD 168 (48 months server services)</SERVERPRICE>
     </PRODUCT>
 </PRODUCTDATA>
  
