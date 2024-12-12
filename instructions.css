@@ -6,7 +6,7 @@ PRODUCT {
     display: block;
 }
 
-PRODUCTNAME, DESCRIPTION, CURRENCY, PRICE, SERVERS, HOSTS{
+PRODUCTNAME, DESCRIPTION, CURRENCY, PRICE, SERVERS, DOMAINREGS , HOSTS{
     display: block;
     margin: 20pt;
     font-size: 20pt;

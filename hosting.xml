@@ -6,8 +6,9 @@
         <DESCRIPTION>Hosting a website allows a business to scale their platform product to their users on a particular Operating System or various operating systems.</DESCRIPTION>
         <CURRENCY>USD</CURRENCY>
         <PRICE>USD</PRICE>
-        <SERVERS>Namecheap</SERVERS>
+        <DOMAINREGS>eg. Namecheap</SERVERS>
         <HOSTS>AWS, Google Cloud etc. </HOSTS>
+        <SERVERS>eg. Hostgator</SERVER>
     </PRODUCT>
 </PRODUCTDATA>
  
