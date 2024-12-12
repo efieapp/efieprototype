@@ -6,7 +6,7 @@
         <DESCRIPTION>Hosting a website allows a business to scale their software to users on a particular Operating System or various operating systems. The user needs to choose a domain name with validity duration of at least 1 month and a server to grant requests of a client.</DESCRIPTION>
         <CURRENCY>USD</CURRENCY>
         <DOMAINPRICE1>USD 22 (Domain name bundle [.com .org .info] first year) </DOMAINPRICE1>
-       <DOMAINPRICE2> USD 5 (Domain name first year)</DOMAINPRICE2>
+   <!--    <DOMAINPRICE2> USD 5 (.com Domain name first year)</DOMAINPRICE2>-->
         <DOMAINREGS>eg. Namecheap</DOMAINREGS>
         <HOSTS>AWS, Google Cloud etc. </HOSTS>
         <SERVERS>eg. Hostgator</SERVERS>
